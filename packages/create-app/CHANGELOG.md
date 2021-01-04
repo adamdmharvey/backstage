@@ -1,5 +1,11 @@
 # @backstage/create-app
 
+## 0.3.2
+
+### Patch Changes
+
+- c2b52d9c5: Replace `register-component` plugin with new `catalog-import` plugin
+
 ## 0.3.1
 
 ### Patch Changes

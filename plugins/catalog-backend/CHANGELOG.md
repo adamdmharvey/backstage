@@ -1,5 +1,17 @@
 # @backstage/plugin-catalog-backend
 
+## 0.5.2
+
+### Patch Changes
+
+- 49d2016a4: Change `location_update_log` columns from `nvarchar(255)` to `text`
+- 73e75ea0a: Add processor for ingesting AWS accounts from AWS Organizations
+- Updated dependencies [5ecd50f8a]
+- Updated dependencies [00042e73c]
+- Updated dependencies [0829ff126]
+- Updated dependencies [036a84373]
+  - @backstage/backend-common@0.4.2
+
 ## 0.5.1
 
 ### Patch Changes

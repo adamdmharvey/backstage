@@ -1,5 +1,13 @@
 # @backstage/plugin-scaffolder
 
+## 0.3.6
+
+### Patch Changes
+
+- 8e083f41f: Bug fix: User can retry creating a new component if an error occurs, without having to reload the page.
+- Updated dependencies [9c09a364f]
+  - @backstage/plugin-catalog@0.2.10
+
 ## 0.3.5
 
 ### Patch Changes

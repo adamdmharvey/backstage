@@ -1,5 +1,17 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.3.7
+
+### Patch Changes
+
+- 00042e73c: Moving the Git actions to isomorphic-git instead of the node binding version of nodegit
+- Updated dependencies [5ecd50f8a]
+- Updated dependencies [00042e73c]
+- Updated dependencies [0829ff126]
+- Updated dependencies [036a84373]
+  - @backstage/backend-common@0.4.2
+  - @backstage/integration@0.1.5
+
 ## 0.3.6
 
 ### Patch Changes
