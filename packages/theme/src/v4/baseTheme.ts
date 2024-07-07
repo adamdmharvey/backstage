@@ -27,6 +27,7 @@ import { SimpleThemeOptions } from './types';
 import { createBaseThemeOptions } from '../base';
 import { defaultComponentThemes } from '../v5';
 import { transformV5ComponentThemesToV4 } from '../unified/overrides';
+import { createUnifiedTheme } from '../unified/UnifiedTheme';
 
 /**
  * An old helper for creating Material UI v4 theme options.
@@ -47,7 +48,7 @@ export function createThemeOptions(options: SimpleThemeOptions): ThemeOptions {
 }
 
 /**
- * * An old helper for creating Material UI v4 theme overrides.
+ * An old helper for creating Material UI v4 theme overrides.
  *
  * @public
  * @deprecated Use {@link defaultComponentThemes} with {@link transformV5ComponentThemesToV4} instead.

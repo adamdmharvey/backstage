@@ -16,6 +16,7 @@
 
 import { createTheme } from './baseTheme';
 import { palettes } from '../base';
+import { themes } from '../unified/themes';
 
 /**
  * The old Material UI v4 Backstage light theme.
