@@ -15,7 +15,7 @@
  */
 
 /*
- * This file is here to re-export exports from the `@backage/plugin-scaffolder-react` package to keep backwards compatibility.
+ * This file is here to re-export exports from the `@backstage/plugin-scaffolder-react` package to keep backwards compatibility.
  * But mark them as deprecated so that any import that is using these exports will be notified that they should use the `-react` package instead.
  * It's a little awkward to get the deprecated notice to show up in the API report, which is why it's all been extracted out to this file.
  */
@@ -159,7 +159,7 @@ export type ScaffolderGetIntegrationsListResponse =
   ScaffolderGetIntegrationsListResponseTemp;
 /**
  * @public
- * @deprecated use import from {@link @backstage/plugin-scaffolder-react#ScaffolderOutputlink} instead as this has now been moved.
+ * @deprecated use import from {@link @backstage/plugin-scaffolder-react#ScaffolderOutputLink} instead as this has now been moved.
  */
 export type ScaffolderOutputlink = ScaffolderOutputLinkTemp;
 /**
